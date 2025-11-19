@@ -1,6 +1,6 @@
-import SpeedCalculator from '../components/SpeedCalculator'; 
+import SpeedCalculator from '@/components/SpeedCalculator'; 
 import Link from 'next/link';
-import liliyaData from '../data/heroes/liliya.json';
+import liliyaData from '@/data/heroes/liliya.json';
 
 export default async function Home() {
   const hero = liliyaData;

@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
 // ИСПРАВЛЕННЫЙ ПУТЬ: Теперь используем triple path для согласованности
-import { useCalculatorStore } from '../../../store/calculatorStore'; // <--- ИЗМЕНЕНИЕ ЗДЕСЬ
+import { useCalculatorStore } from '@/store/calculatorStore';
 import { motion } from 'framer-motion';
 
 // ... (остальной код компонента)
