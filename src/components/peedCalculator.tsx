@@ -1,6 +1,6 @@
 "use client";
 import React from 'react';
-import { useCalculatorStore } from '@/store/calculatorStore'; // Используем алиас
+import { useCalculatorStore } from '../store/calculatorStore';
 import { motion } from 'framer-motion';
 
 export default function SpeedCalculator() {
