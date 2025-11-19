@@ -1,12 +1,6 @@
-// ТРИПЛ-ПУТЬ, ГАРАНТИРУЮЩИЙ РАБОТУ НА VERCEL:
-import SpeedCalculator from '../../components/SpeedCalculator'; 
+import SpeedCalculator from '../../../components/SpeedCalculator'; 
 import Link from 'next/link';
-import liliyaData from '../../data/heroes/liliya.json';
-
-// Если после пуша Vercel снова выдаст "Module not found", 
-// вернитесь к этому файлу и замените '..' на '...'
-// import SpeedCalculator from '../../../components/SpeedCalculator'; 
-// import liliyaData from '../../../data/heroes/liliya.json';
+import liliyaData from '../../../data/heroes/liliya.json';
 
 export default async function Home() {
   const hero = liliyaData; // Используем данные напрямую
