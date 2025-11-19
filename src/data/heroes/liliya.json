@@ -1,0 +1,22 @@
+{
+  "id": "liliya",
+  "name": {
+    "ru": "Лилия",
+    "en": "Liliya",
+    "zh": "莉莉亚"
+  },
+  "rarity": "legendary",
+  "role": ["Magic", "Peacekeeping", "Skill"],
+  "stats": {
+    "magicUnitCapacity": 1000,
+    "marchSpeed": "Very Fast"
+  },
+  "skills": [
+    {
+      "id": "flames_of_vengeance",
+      "name": { "ru": "Пламя Феникса", "en": "Flames of Vengeance" },
+      "description": { "ru": "Наносит магический урон цели и 2 ближайшим врагам.", "en": "Deals Magic Skill damage to the target and 2 nearby legions." },
+      "damageFactor": 1200
+    }
+  ]
+}
