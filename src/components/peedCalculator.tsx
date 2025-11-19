@@ -1,8 +1,10 @@
 "use client";
 import React from 'react';
-// ИСПРАВЛЕННЫЙ ПУТЬ: Смена '@/store/calculatorStore' на '../store/calculatorStore'
-import { useCalculatorStore } from '../store/calculatorStore';
+// ИСПРАВЛЕННЫЙ ПУТЬ: Теперь используем triple path для согласованности
+import { useCalculatorStore } from '../../../store/calculatorStore'; // <--- ИЗМЕНЕНИЕ ЗДЕСЬ
 import { motion } from 'framer-motion';
+
+// ... (остальной код компонента)
 
 export default function SpeedCalculator() {
   const { baseTimeMinutes, bonuses, setBaseTime, setBonus, calculateFinalTime } = useCalculatorStore();
