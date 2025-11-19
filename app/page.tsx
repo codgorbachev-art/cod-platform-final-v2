@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
 // ИСПРАВЛЕННЫЙ ПУТЬ: Смена '@/store/calculatorStore' на '../store/calculatorStore'
-import { useCalculatorStore } from '@/store/calculatorStore';
+import { useCalculatorStore } from '../store/calculatorStore';
 import { motion } from 'framer-motion';
 
 export default function SpeedCalculator() {
